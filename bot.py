@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 TOKEN = "8953531731:AAFaVxf-gFzMFC6jqC4lMViSgyWiNA83RU4"
-ADMIN_ID = 694392046
+ADMIN_ID = 8527096621
 PAYMENT_LINK = "https://securepayecom.com/sc/tqudmpUtBwVuCdVv"
 
 logging.basicConfig(
