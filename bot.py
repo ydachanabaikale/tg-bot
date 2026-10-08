@@ -38,7 +38,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     caption = (
         "Новый чек!\n"
         "Пользователь: " + user.full_name + "\n"
-        "ID: " + str(user.id)
+        "Ссылка на профиль: tg://user?id=" + str(user.id)
     )
     await context.bot.send_photo(
         chat_id=ADMIN_ID,
